@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    margin: auto;
+    height: auto;
+    background-color: rgb(233, 227, 227);
+}
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgb(155, 153, 27);
+}
+li{
+    display: inline-block;
+    margin-left: 15px;
+}
+li a{
+    text-align: center;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: rgb(156, 109, 109);
+}
+.bg{
+    background-color: aquamarine;
+    /* width: 1170px; */
+    height: 450px;
+    background-image: url(Images/Grocery.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.bg h2{
+    padding-top: 70px;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(18, 104, 15);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.bg p{
+    text-align: center;
+    color: rgb(8, 1, 1);
+    font-size: 25px; 
+}
+.num{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blueviolet;
+}
+
+#s1{
+     background-color: rgba(189, 204, 22, 0.788); 
+     padding: 4px;
+    
+}
+#s1 .about h2{
+    text-align: center;
+    padding: 15px 0 0 0;
+    font-size: 35px;
+}
+
+.about .clumn{
+    float: left; 
+    width: 25%;
+    padding: 0 8px 0 8px;
+    text-align: center;
+    
+}
+.about .row .clumn{
+    background-color: rgb(219, 224, 218);
+}
+.about .row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#s2{
+    background-color: rgba(69, 80, 110, 0.911);
+    text-align: center;
+    padding: 4px;
+}
+.product .row1 div{
+    float: left;
+    width: 25%;
+}
+.product h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    padding-top: 10px;
+}
+.product .row1 div{
+    background-color: rgb(163, 255, 127);
+}
+.product .row1::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 10px;
+}
+footer p{
+    padding: 5px;
+}
